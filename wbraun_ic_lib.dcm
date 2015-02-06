@@ -1,0 +1,42 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP FAN7390
+D half bridge gate driver
+K gate driver
+$ENDCMP
+#
+$CMP IXDD609SI
+D gate driver
+K gate driver
+$ENDCMP
+#
+$CMP LTC6101
+D high-side current sense
+K current sense
+$ENDCMP
+#
+$CMP MIC5205
+D  SOT-23-5 voltage regulator
+K voltage regulator
+$ENDCMP
+#
+$CMP RCA_1
+D RCA Connector
+K RCA
+$ENDCMP
+#
+$CMP SN74LVC1T45
+D level shifter
+$ENDCMP
+#
+$CMP STM32F334K
+D STM32 microcontroller
+K STM32
+$ENDCMP
+#
+$CMP TPS40210
+D current mode boost controller
+K controller
+$ENDCMP
+#
+#End Doc Library
