@@ -1,5 +1,13 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP +1V0
+K POWER, PWR
+$ENDCMP
+#
+$CMP +1V2
+K POWER, PWR
+$ENDCMP
+#
 $CMP FAN7390
 D half bridge gate driver
 K gate driver
@@ -23,6 +31,10 @@ $ENDCMP
 $CMP RCA_1
 D RCA Connector
 K RCA
+$ENDCMP
+#
+$CMP SN74LVC1T45
+D level shifter
 $ENDCMP
 #
 $CMP STM32F334K
