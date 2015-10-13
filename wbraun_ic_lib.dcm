@@ -8,8 +8,18 @@ $CMP +1V2
 K POWER, PWR
 $ENDCMP
 #
+$CMP ADP170
+D LDO, 300mA
+K LDO, Regulator 
+$ENDCMP
+#
 $CMP ASVTX-13
 D VCTCXO
+$ENDCMP
+#
+$CMP DDR3-x16
+D x16 DDR-3
+K DDR, Memory
 $ENDCMP
 #
 $CMP FAN7390
@@ -29,6 +39,11 @@ $ENDCMP
 $CMP LTC6101
 D high-side current sense
 K current sense
+$ENDCMP
+#
+$CMP LTM4622
+D DC/DC Regulator Module
+K Regulator, DC/DC
 $ENDCMP
 #
 $CMP MIC5205
@@ -54,9 +69,27 @@ D STM32 microcontroller
 K STM32
 $ENDCMP
 #
+$CMP TLV702xx-DBV
+D LDO, 300mA
+K LDO, Regulator
+$ENDCMP
+#
 $CMP TPS40210
 D current mode boost controller
 K controller
+$ENDCMP
+#
+$CMP TPS72615
+D 1.5V LDO
+$ENDCMP
+#
+$CMP VTT
+K POWER, PWR
+$ENDCMP
+#
+$CMP XRP2997
+D DDR Regulator
+K DDR, Regulator
 $ENDCMP
 #
 #End Doc Library
