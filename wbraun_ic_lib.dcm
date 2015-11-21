@@ -60,6 +60,11 @@ D RCA Connector
 K RCA
 $ENDCMP
 #
+$CMP S25FL256SAGNFI
+D Quad SPI Flash
+K Flash
+$ENDCMP
+#
 $CMP SN74LVC1T45
 D level shifter
 $ENDCMP
