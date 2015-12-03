@@ -27,9 +27,18 @@ D half bridge gate driver
 K gate driver
 $ENDCMP
 #
+$CMP FOX924
+D VCTCXO
+$ENDCMP
+#
 $CMP IXDD609SI
 D gate driver
 K gate driver
+$ENDCMP
+#
+$CMP JTAG-XILINX-TC
+D JTAG 
+K JTAG
 $ENDCMP
 #
 $CMP LP5900
@@ -58,6 +67,16 @@ $ENDCMP
 $CMP RCA_1
 D RCA Connector
 K RCA
+$ENDCMP
+#
+$CMP S25FL256SAGNFI
+D Quad SPI Flash
+K Flash
+$ENDCMP
+#
+$CMP SFP_CONN
+D SFP
+K SFP
 $ENDCMP
 #
 $CMP SN74LVC1T45
