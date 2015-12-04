@@ -60,6 +60,11 @@ D  SOT-23-5 voltage regulator
 K voltage regulator
 $ENDCMP
 #
+$CMP NB3L553
+D Clock Buffer
+K Buffer
+$ENDCMP
+#
 $CMP PL133-27
 D Clock Buffer
 $ENDCMP
