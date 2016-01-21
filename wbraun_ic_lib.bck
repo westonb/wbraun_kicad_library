@@ -22,6 +22,11 @@ D x16 DDR-3
 K DDR, Memory
 $ENDCMP
 #
+$CMP EE2-3TNUH
+D latching relay
+K relay
+$ENDCMP
+#
 $CMP FAN7390
 D half bridge gate driver
 K gate driver
@@ -39,6 +44,15 @@ $ENDCMP
 $CMP JTAG-XILINX-TC
 D JTAG 
 K JTAG
+$ENDCMP
+#
+$CMP LMR14006
+D Low Power DC-DC Converter, 600mA
+$ENDCMP
+#
+$CMP LMV321LILT
+D OPAMP, GP
+K OPAMP
 $ENDCMP
 #
 $CMP LP5900
@@ -86,6 +100,11 @@ $ENDCMP
 #
 $CMP SN74LVC1T45
 D level shifter
+$ENDCMP
+#
+$CMP STM32F051KxT
+D Microcontroller 
+K micrcontroller
 $ENDCMP
 #
 $CMP STM32F334K
