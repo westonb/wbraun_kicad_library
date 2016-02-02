@@ -8,6 +8,11 @@ $CMP +1V2
 K POWER, PWR
 $ENDCMP
 #
+$CMP 128x64_OLED-I2C
+D I2C OLED Display
+K Display
+$ENDCMP
+#
 $CMP ADP170
 D LDO, 300mA
 K LDO, Regulator 
@@ -27,6 +32,11 @@ D latching relay
 K relay
 $ENDCMP
 #
+$CMP ESP8266_Module
+D wifi module
+K wifi
+$ENDCMP
+#
 $CMP FAN7390
 D half bridge gate driver
 K gate driver
@@ -34,6 +44,11 @@ $ENDCMP
 #
 $CMP FOX924
 D VCTCXO
+$ENDCMP
+#
+$CMP GPS_Breakout
+D GPS Breakout
+K GPS
 $ENDCMP
 #
 $CMP IXDD609SI
@@ -48,6 +63,11 @@ $ENDCMP
 #
 $CMP LMR14006
 D Low Power DC-DC Converter, 600mA
+$ENDCMP
+#
+$CMP LMS9DS1_Breakout
+D IMU Breakout
+K IMU
 $ENDCMP
 #
 $CMP LMV321LILT
@@ -67,6 +87,11 @@ $ENDCMP
 $CMP LTM4622
 D DC/DC Regulator Module
 K Regulator, DC/DC
+$ENDCMP
+#
+$CMP MCP9808
+D I2C Temp Sensor
+K Temp Sensor
 $ENDCMP
 #
 $CMP MIC5205
@@ -112,6 +137,11 @@ D STM32 microcontroller
 K STM32
 $ENDCMP
 #
+$CMP TCS34725
+D I2C color sensor
+K color sensor
+$ENDCMP
+#
 $CMP TLV702xx-DBV
 D LDO, 300mA
 K LDO, Regulator
@@ -124,6 +154,11 @@ $ENDCMP
 #
 $CMP TPS72615
 D 1.5V LDO
+$ENDCMP
+#
+$CMP Teensy_3.2
+D Teensy 3.2
+K microcontroller
 $ENDCMP
 #
 $CMP VTT
