@@ -104,6 +104,10 @@ D Clock Buffer
 K Buffer
 $ENDCMP
 #
+$CMP PCA9536
+D I2C IO Expander
+$ENDCMP
+#
 $CMP PL133-27
 D Clock Buffer
 $ENDCMP
