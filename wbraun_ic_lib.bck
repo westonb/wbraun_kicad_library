@@ -18,6 +18,11 @@ D LDO, 300mA
 K LDO, Regulator 
 $ENDCMP
 #
+$CMP AP2214H
+D 1.0A Voltage Regulator
+K Voltage Regulator
+$ENDCMP
+#
 $CMP ASVTX-13
 D VCTCXO
 $ENDCMP
@@ -94,6 +99,11 @@ D I2C Temp Sensor
 K Temp Sensor
 $ENDCMP
 #
+$CMP MIC2091
+D Load Switch
+K Load Switch
+$ENDCMP
+#
 $CMP MIC5205
 D  SOT-23-5 voltage regulator
 K voltage regulator
@@ -136,9 +146,24 @@ D Microcontroller
 K micrcontroller
 $ENDCMP
 #
+$CMP STM32F072CBU
+D STM32 Microcontroller
+K Microcontroller, STM32
+$ENDCMP
+#
+$CMP STM32F103C8T
+D STM32 Microcontroller
+K Microcontroller
+$ENDCMP
+#
 $CMP STM32F334K
 D STM32 microcontroller
 K STM32
+$ENDCMP
+#
+$CMP TCA9548AR
+D I2C Bus Expander
+K I2C
 $ENDCMP
 #
 $CMP TCS34725
