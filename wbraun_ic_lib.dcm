@@ -41,9 +41,19 @@ D gate driver
 K gate driver
 $ENDCMP
 #
+$CMP JACK_TRRS_6PINS
+D audio jack TRRS 6 pins
+K audio jack connector TRRS
+$ENDCMP
+#
 $CMP JTAG-XILINX-TC
 D JTAG 
 K JTAG
+$ENDCMP
+#
+$CMP LM4550
+D AC97 Codec
+K AC97, Codec
 $ENDCMP
 #
 $CMP LMR14006
@@ -69,6 +79,11 @@ D DC/DC Regulator Module
 K Regulator, DC/DC
 $ENDCMP
 #
+$CMP MCP1640-*/CHY
+D Boost Converter
+K DC/DC
+$ENDCMP
+#
 $CMP MIC5205
 D  SOT-23-5 voltage regulator
 K voltage regulator
@@ -84,6 +99,11 @@ D Clock Buffer
 $ENDCMP
 #
 $CMP RCA_1
+D RCA Connector
+K RCA
+$ENDCMP
+#
+$CMP RCA_2
 D RCA Connector
 K RCA
 $ENDCMP
