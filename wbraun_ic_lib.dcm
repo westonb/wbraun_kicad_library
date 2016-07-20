@@ -8,9 +8,19 @@ $CMP +1V2
 K POWER, PWR
 $ENDCMP
 #
+$CMP 128x64_OLED-I2C
+D I2C OLED Display
+K Display
+$ENDCMP
+#
 $CMP ADP170
 D LDO, 300mA
 K LDO, Regulator 
+$ENDCMP
+#
+$CMP AP2114H
+D 1.0A Voltage Regulator
+K Voltage Regulator
 $ENDCMP
 #
 $CMP ASVTX-13
@@ -27,6 +37,11 @@ D latching relay
 K relay
 $ENDCMP
 #
+$CMP ESP8266_Module
+D wifi module
+K wifi
+$ENDCMP
+#
 $CMP FAN7390
 D half bridge gate driver
 K gate driver
@@ -34,6 +49,11 @@ $ENDCMP
 #
 $CMP FOX924
 D VCTCXO
+$ENDCMP
+#
+$CMP GPS_Breakout
+D GPS Breakout
+K GPS
 $ENDCMP
 #
 $CMP IXDD609SI
@@ -60,6 +80,11 @@ $CMP LMR14006
 D Low Power DC-DC Converter, 600mA
 $ENDCMP
 #
+$CMP LMS9DS1_Breakout
+D IMU Breakout
+K IMU
+$ENDCMP
+#
 $CMP LMV321LILT
 D OPAMP, GP
 K OPAMP
@@ -82,6 +107,15 @@ $ENDCMP
 $CMP MCP1640-*/CHY
 D Boost Converter
 K DC/DC
+#
+$CMP MCP9808
+D I2C Temp Sensor
+K Temp Sensor
+$ENDCMP
+#
+$CMP MIC2091
+D Load Switch
+K Load Switch
 $ENDCMP
 #
 $CMP MIC5205
@@ -92,6 +126,10 @@ $ENDCMP
 $CMP NB3L553
 D Clock Buffer
 K Buffer
+$ENDCMP
+#
+$CMP PCA9536
+D I2C IO Expander
 $ENDCMP
 #
 $CMP PL133-27
@@ -127,9 +165,29 @@ D Microcontroller
 K micrcontroller
 $ENDCMP
 #
+$CMP STM32F072CBU
+D STM32 Microcontroller
+K Microcontroller, STM32
+$ENDCMP
+#
+$CMP STM32F103C8T
+D STM32 Microcontroller
+K Microcontroller
+$ENDCMP
+#
 $CMP STM32F334K
 D STM32 microcontroller
 K STM32
+$ENDCMP
+#
+$CMP TCA9548AR
+D I2C Bus Expander
+K I2C
+$ENDCMP
+#
+$CMP TCS34725
+D I2C color sensor
+K color sensor
 $ENDCMP
 #
 $CMP TLV702xx-DBV
@@ -144,6 +202,11 @@ $ENDCMP
 #
 $CMP TPS72615
 D 1.5V LDO
+$ENDCMP
+#
+$CMP Teensy_3.2
+D Teensy 3.2
+K microcontroller
 $ENDCMP
 #
 $CMP VTT
