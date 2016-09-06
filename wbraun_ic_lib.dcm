@@ -105,10 +105,6 @@ K Regulator, DC/DC
 $ENDCMP
 #
 $CMP MCP1640-*/CHY
-D Boost Converter
-K DC/DC
-#
-$CMP MCP9808
 D I2C Temp Sensor
 K Temp Sensor
 $ENDCMP
