@@ -13,6 +13,21 @@ D I2C OLED Display
 K Display
 $ENDCMP
 #
+$CMP 4046
+D Phase Comp & VCO
+K CMOS PLL
+$ENDCMP
+#
+$CMP 74HC4046
+D Phase Comp & VCO
+K CMOS PLL
+$ENDCMP
+#
+$CMP 74LVC1G57
+D multiple function gate
+K logic
+$ENDCMP
+#
 $CMP ADP170
 D LDO, 300mA
 K LDO, Regulator 
@@ -25,6 +40,21 @@ $ENDCMP
 #
 $CMP ASVTX-13
 D VCTCXO
+$ENDCMP
+#
+$CMP CM_CHOKE
+D Common Mode Choke
+K choke
+$ENDCMP
+#
+$CMP CT_Transformer
+D Current Transformer
+K Current, Transformer
+$ENDCMP
+#
+$CMP DAC101C081
+D I2C DAC
+K DAC
 $ENDCMP
 #
 $CMP DDR3-x16
@@ -56,6 +86,11 @@ D GPS Breakout
 K GPS
 $ENDCMP
 #
+$CMP GS61008P
+D Transistor N-MOSFET, collector connected to mounting plane (general)
+K nmos n-mos n-mosfet transistor
+$ENDCMP
+#
 $CMP IXDD609SI
 D gate driver
 K gate driver
@@ -64,6 +99,16 @@ $ENDCMP
 $CMP JTAG-XILINX-TC
 D JTAG 
 K JTAG
+$ENDCMP
+#
+$CMP LM5010
+D 1A DC/DC Converter
+K DC/DC
+$ENDCMP
+#
+$CMP LM5113SD
+D GaN Half-Bridge Gate Driver
+K GaN, Gate Driver
 $ENDCMP
 #
 $CMP LMR14006
@@ -112,6 +157,21 @@ $ENDCMP
 $CMP NB3L553
 D Clock Buffer
 K Buffer
+$ENDCMP
+#
+$CMP NC7SZ14P5
+D Single Schmitt Triger Inverter
+K Inverter
+$ENDCMP
+#
+$CMP NC7SZ374
+D Single D Flip Flop
+K Flip Flop
+$ENDCMP
+#
+$CMP OPA356AIDBV
+D OPAMP, High Speed
+K OPAMP
 $ENDCMP
 #
 $CMP PCA9536
@@ -169,6 +229,11 @@ $ENDCMP
 $CMP TCS34725
 D I2C color sensor
 K color sensor
+$ENDCMP
+#
+$CMP TLV3501AIDBVR
+D COMPARATOR, High Speed
+K COMPARATOR
 $ENDCMP
 #
 $CMP TLV702xx-DBV
