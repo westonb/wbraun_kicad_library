@@ -96,11 +96,17 @@ D gate driver
 K gate driver
 $ENDCMP
 #
+$CMP JACK_TRRS_6PINS
+D audio jack TRRS 6 pins
+K audio jack connector TRRS
+$ENDCMP
+#
 $CMP JTAG-XILINX-TC
 D JTAG 
 K JTAG
 $ENDCMP
 #
+<<<<<<< HEAD
 $CMP LM5010
 D 1A DC/DC Converter
 K DC/DC
@@ -109,6 +115,11 @@ $ENDCMP
 $CMP LM5113SD
 D GaN Half-Bridge Gate Driver
 K GaN, Gate Driver
+=======
+$CMP LM4550
+D AC97 Codec
+K AC97, Codec
+>>>>>>> 7b96cfcda800561b70c13c77b1e67ad91ec9fdd9
 $ENDCMP
 #
 $CMP LMR14006
@@ -139,7 +150,7 @@ D DC/DC Regulator Module
 K Regulator, DC/DC
 $ENDCMP
 #
-$CMP MCP9808
+$CMP MCP1640-*/CHY
 D I2C Temp Sensor
 K Temp Sensor
 $ENDCMP
@@ -183,6 +194,11 @@ D Clock Buffer
 $ENDCMP
 #
 $CMP RCA_1
+D RCA Connector
+K RCA
+$ENDCMP
+#
+$CMP RCA_2
 D RCA Connector
 K RCA
 $ENDCMP
