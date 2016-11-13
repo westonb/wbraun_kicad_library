@@ -111,6 +111,19 @@ D Bridge Rectifier
 K Bridge Rectifier
 $ENDCMP
 #
+$CMP MCP4017
+D I2C POT
+$ENDCMP
+#
+$CMP MCP9600
+D I2C Thermocouple Amp
+$ENDCMP
+#
+$CMP Q_NMOS_SSSGDDDDD
+D N-MOS
+K nmos n-mos n-mosfet transistor
+$ENDCMP
+#
 $CMP STM32F051KxU
 D STM32 
 K Microcontroller 
@@ -119,6 +132,15 @@ $ENDCMP
 $CMP ULN2003F12
 D Relay Driver
 K Relay Driver
+$ENDCMP
+#
+$CMP iCH12
+D DC/DC Converter
+K DC/DC
+$ENDCMP
+#
+$CMP particle_electron
+D particle electron
 $ENDCMP
 #
 #End Doc Library
