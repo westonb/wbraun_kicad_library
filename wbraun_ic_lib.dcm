@@ -124,9 +124,18 @@ D N-MOS
 K nmos n-mos n-mosfet transistor
 $ENDCMP
 #
+$CMP Q_NMOS_letters
+D Transistor N-MOSFET (general)
+K nmos n-mos n-mosfet transistor
+$ENDCMP
+#
 $CMP STM32F051KxU
 D STM32 
 K Microcontroller 
+$ENDCMP
+#
+$CMP UCC27524A
+D Dual Gate Driver
 $ENDCMP
 #
 $CMP ULN2003F12
