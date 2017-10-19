@@ -105,6 +105,11 @@ D Transistor N-MOSFET, collector connected to mounting plane (general)
 K nmos n-mos n-mosfet transistor
 $ENDCMP
 #
+$CMP GS66508T
+D GaN FET, top cooled
+K GaN, MOSFET
+$ENDCMP
+#
 $CMP HHM1520
 D RF Balun
 K Balun, RF
@@ -112,6 +117,11 @@ $ENDCMP
 #
 $CMP INA826AIDRG
 D Instrumentation Amplifier
+$ENDCMP
+#
+$CMP ISO7720QDQ1
+D Digital Isolator, 2 Channel 
+K Digital Isolator
 $ENDCMP
 #
 $CMP IXDD609SI
@@ -132,6 +142,11 @@ $ENDCMP
 $CMP LMX358IQ
 D OPAMP, rail to rail
 K OPAMP
+$ENDCMP
+#
+$CMP LP2985
+D Linear Regulator, SOT-23
+K Regulator, Linear
 $ENDCMP
 #
 $CMP LT5560
@@ -166,6 +181,11 @@ $CMP MMA8452Q
 D I2C Accelerometer 
 $ENDCMP
 #
+$CMP NXE2SxxxxMC
+D DC/DC Converter, Isolated
+K DC/DC, Isolated
+$ENDCMP
+#
 $CMP PCA9534A
 D I2C I/O Expander
 K I/O, I2C
@@ -174,6 +194,11 @@ $ENDCMP
 $CMP PD2328J
 D RF Power Splitter
 K RF, Splitter
+$ENDCMP
+#
+$CMP PE29102
+D GaN Gate Driver
+K Gat Driver
 $ENDCMP
 #
 $CMP PE44820
@@ -203,6 +228,11 @@ $ENDCMP
 $CMP SW_PUSH
 D button
 K button
+$ENDCMP
+#
+$CMP TPS562209
+D Buck Converter
+K DC/DC, Buck
 $ENDCMP
 #
 $CMP UCC27524A
