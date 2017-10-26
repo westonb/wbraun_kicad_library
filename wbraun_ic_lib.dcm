@@ -239,6 +239,11 @@ $CMP UCC27524A
 D Dual Gate Driver
 $ENDCMP
 #
+$CMP UCC27611
+D GaN Gate Driver
+K Gate Driver
+$ENDCMP
+#
 $CMP ULN2003F12
 D Relay Driver
 K Relay Driver
