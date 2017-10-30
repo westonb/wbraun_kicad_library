@@ -40,7 +40,7 @@ $ENDCMP
 #
 $CMP ADP170
 D LDO, 300mA
-K LDO, Regulator 
+K LDO, Regulator
 $ENDCMP
 #
 $CMP ALM-31222
@@ -120,7 +120,7 @@ D Instrumentation Amplifier
 $ENDCMP
 #
 $CMP ISO7720QDQ1
-D Digital Isolator, 2 Channel 
+D Digital Isolator, 2 Channel
 K Digital Isolator
 $ENDCMP
 #
@@ -135,7 +135,7 @@ K audio jack connector TRRS
 $ENDCMP
 #
 $CMP JTAG-XILINX-TC
-D JTAG 
+D JTAG
 K JTAG
 $ENDCMP
 #
@@ -178,7 +178,7 @@ K Amplifier
 $ENDCMP
 #
 $CMP MMA8452Q
-D I2C Accelerometer 
+D I2C Accelerometer
 $ENDCMP
 #
 $CMP NXE2SxxxxMC
@@ -215,9 +215,19 @@ D Transistor N-MOSFET (general)
 K nmos n-mos n-mosfet transistor
 $ENDCMP
 #
+$CMP RP-xx06S
+D DC/DC Converter, Isolated
+K DC/DC, Isolated
+$ENDCMP
+#
+$CMP SI8273
+D isolated gate driver
+K gate driver
+$ENDCMP
+#
 $CMP STM32F051KxU
-D STM32 
-K Microcontroller 
+D STM32
+K Microcontroller
 $ENDCMP
 #
 $CMP STM32L432K
@@ -257,6 +267,14 @@ $ENDCMP
 $CMP iCH12
 D DC/DC Converter
 K DC/DC
+$ENDCMP
+#
+$CMP mounting-hole-grounded
+D mounting hole
+$ENDCMP
+#
+$CMP mounting-hole-nc
+D mounting-hole
 $ENDCMP
 #
 $CMP particle_electron
