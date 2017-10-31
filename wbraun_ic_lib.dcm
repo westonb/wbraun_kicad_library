@@ -43,6 +43,10 @@ D LDO, 300mA
 K LDO, Regulator
 $ENDCMP
 #
+$CMP ADuM3190
+D Analog Isolator
+$ENDCMP
+#
 $CMP ALM-31222
 D RF Amplifier
 $ENDCMP
