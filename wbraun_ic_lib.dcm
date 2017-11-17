@@ -75,6 +75,10 @@ D I2C DAC
 K DAC
 $ENDCMP
 #
+$CMP DALC208
+D ESD Protection Diode
+$ENDCMP
+#
 $CMP DDR3-x16
 D x16 DDR-3
 K DDR, Memory
