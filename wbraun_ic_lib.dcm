@@ -213,6 +213,11 @@ $CMP PE44820
 D Digital Phase Shifter
 $ENDCMP
 #
+$CMP PGA26E07BA
+D GaN FET
+K GaN
+$ENDCMP
+#
 $CMP Q_NMOS_SSSGDDDDD
 D N-MOS
 K nmos n-mos n-mosfet transistor

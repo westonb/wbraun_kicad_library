@@ -3,3 +3,7 @@
 
 # OS X specific
 *.DS_Store
+
+#kicad specific files
+*.lib~
+
