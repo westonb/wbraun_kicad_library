@@ -23,6 +23,10 @@ D Phase Comp & VCO
 K CMOS PLL
 $ENDCMP
 #
+$CMP 74ALVC164245
+D level shifter
+$ENDCMP
+#
 $CMP 74HC4046
 D Phase Comp & VCO
 K CMOS PLL
@@ -121,6 +125,11 @@ $ENDCMP
 $CMP HHM1520
 D RF Balun
 K Balun, RF
+$ENDCMP
+#
+$CMP IF-D95T
+D fiber optic transmitter
+K fiber optic
 $ENDCMP
 #
 $CMP INA826AIDRG
