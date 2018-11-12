@@ -42,6 +42,15 @@ D Amplifier, VGA
 K Amplifier
 $ENDCMP
 #
+$CMP ADA4940-2
+D Dual Differential Amplifier
+$ENDCMP
+#
+$CMP ADG774A
+D Quad Analog Switch
+K Analog Switch
+$ENDCMP
+#
 $CMP ADP170
 D LDO, 300mA
 K LDO, Regulator
@@ -262,9 +271,18 @@ D button
 K button
 $ENDCMP
 #
+$CMP TLV62130
+D DC/DC, Buck 3A
+K DC/DC, Buck
+$ENDCMP
+#
 $CMP TPS562209
 D Buck Converter
 K DC/DC, Buck
+$ENDCMP
+#
+$CMP TPS735
+D Linear Regulator
 $ENDCMP
 #
 $CMP UCC27524A
