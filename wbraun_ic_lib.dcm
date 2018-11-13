@@ -251,6 +251,10 @@ D DC/DC Converter, Isolated
 K DC/DC, Isolated
 $ENDCMP
 #
+$CMP S25FL127SABN
+D SPI Flash
+$ENDCMP
+#
 $CMP SI8273
 D isolated gate driver
 K gate driver
