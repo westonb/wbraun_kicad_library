@@ -165,6 +165,10 @@ D JTAG
 K JTAG
 $ENDCMP
 #
+$CMP LM4128
+D Voltage Refrence
+$ENDCMP
+#
 $CMP LMX358IQ
 D OPAMP, rail to rail
 K OPAMP
