@@ -27,6 +27,10 @@ $CMP 74ALVC164245
 D level shifter
 $ENDCMP
 #
+$CMP 74AVC4TD245BQ
+D Level Shifter
+$ENDCMP
+#
 $CMP 74HC4046
 D Phase Comp & VCO
 K CMOS PLL
