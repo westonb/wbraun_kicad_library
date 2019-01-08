@@ -130,6 +130,11 @@ D Transistor N-MOSFET, collector connected to mounting plane (general)
 K nmos n-mos n-mosfet transistor
 $ENDCMP
 #
+$CMP GS61008T
+D GaN FET, top cooled
+K GaN, MOSFET
+$ENDCMP
+#
 $CMP GS66508T
 D GaN FET, top cooled
 K GaN, MOSFET
@@ -171,6 +176,10 @@ $ENDCMP
 #
 $CMP LM4128
 D Voltage Refrence
+$ENDCMP
+#
+$CMP LMG1210
+D GaN Gate Driver
 $ENDCMP
 #
 $CMP LMX358IQ
@@ -281,6 +290,14 @@ $ENDCMP
 $CMP SW_PUSH
 D button
 K button
+$ENDCMP
+#
+$CMP THS4520
+D Differential Amplifier
+$ENDCMP
+#
+$CMP THS4551RGT
+D Differential Amplifier
 $ENDCMP
 #
 $CMP TLV62130
