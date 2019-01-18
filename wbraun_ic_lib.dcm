@@ -46,6 +46,10 @@ D Amplifier, VGA
 K Amplifier
 $ENDCMP
 #
+$CMP AD9609
+D ADC, 10 Bit
+$ENDCMP
+#
 $CMP ADA4940-2
 D Dual Differential Amplifier
 $ENDCMP
@@ -154,13 +158,17 @@ $CMP INA826AIDRG
 D Instrumentation Amplifier
 $ENDCMP
 #
+$CMP ISO3086DWR
+D Isolated Full Duplex RS-485 Transceiver
+$ENDCMP
+#
 $CMP ISO7720QDQ1
 D Digital Isolator, 2 Channel
 K Digital Isolator
 $ENDCMP
 #
-$CMP IXDD609SI
-D gate driver
+$CMP IXDD609D2
+D gate driver, 9A
 K gate driver
 $ENDCMP
 #
@@ -185,6 +193,10 @@ $ENDCMP
 $CMP LMX358IQ
 D OPAMP, rail to rail
 K OPAMP
+$ENDCMP
+#
+$CMP LMZ14201
+D DC/DC Module
 $ENDCMP
 #
 $CMP LP2985
@@ -263,13 +275,17 @@ D Transistor N-MOSFET (general)
 K nmos n-mos n-mosfet transistor
 $ENDCMP
 #
-$CMP RP-xx06S
-D DC/DC Converter, Isolated
+$CMP RFM-0505S
+D DC/DC Converter, Isolated 5V
 K DC/DC, Isolated
 $ENDCMP
 #
 $CMP S25FL127SABN
 D SPI Flash
+$ENDCMP
+#
+$CMP SG3225
+D Crystal Oscilator, LVDS
 $ENDCMP
 #
 $CMP SI8273
@@ -312,6 +328,10 @@ $ENDCMP
 #
 $CMP TPS735
 D Linear Regulator
+$ENDCMP
+#
+$CMP TPS82084
+D 2A DC/DC Module
 $ENDCMP
 #
 $CMP UCC27524A
