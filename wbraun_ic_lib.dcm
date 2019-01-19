@@ -41,6 +41,10 @@ D multiple function gate
 K logic
 $ENDCMP
 #
+$CMP 74LVC8T245
+D Octal Level Shifter
+$ENDCMP
+#
 $CMP AD8330AC
 D Amplifier, VGA
 K Amplifier
@@ -66,6 +70,16 @@ $ENDCMP
 #
 $CMP ADuM3190
 D Analog Isolator
+$ENDCMP
+#
+$CMP AFBR-1624Z
+D Versatile Link Fiber Optic Transmitter, 50 Megabaud
+K Fiber Optic Transmitter
+$ENDCMP
+#
+$CMP AFBR-2624Z
+D Versatile Link Fiber Optic Receiver, 50 Megabaud
+K Fiber Optic Receiver
 $ENDCMP
 #
 $CMP ALM-31222
