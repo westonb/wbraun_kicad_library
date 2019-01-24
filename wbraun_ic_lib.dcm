@@ -158,6 +158,11 @@ D GaN FET, top cooled
 K GaN, MOSFET
 $ENDCMP
 #
+$CMP GTRL2
+D Relay DPDT
+K Relay DPDT
+$ENDCMP
+#
 $CMP HHM1520
 D RF Balun
 K Balun, RF
