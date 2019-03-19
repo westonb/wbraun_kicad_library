@@ -36,6 +36,10 @@ D Phase Comp & VCO
 K CMOS PLL
 $ENDCMP
 #
+$CMP 74LVC1G00
+D Single NAND Gate
+$ENDCMP
+#
 $CMP 74LVC1G57
 D multiple function gate
 K logic
@@ -43,6 +47,10 @@ $ENDCMP
 #
 $CMP 74LVC8T245
 D Octal Level Shifter
+$ENDCMP
+#
+$CMP AD5245
+D I2C Digital Potentiometer
 $ENDCMP
 #
 $CMP AD8330AC
@@ -143,6 +151,11 @@ D GPS Breakout
 K GPS
 $ENDCMP
 #
+$CMP GS61004B
+D Transistor N-MOSFET, collector connected to mounting plane (general)
+K nmos n-mos n-mosfet transistor
+$ENDCMP
+#
 $CMP GS61008P
 D Transistor N-MOSFET, collector connected to mounting plane (general)
 K nmos n-mos n-mosfet transistor
@@ -203,6 +216,10 @@ $ENDCMP
 #
 $CMP LM4128
 D Voltage Refrence
+$ENDCMP
+#
+$CMP LM5114*SD
+D GaN Gate Driver
 $ENDCMP
 #
 $CMP LMG1210
@@ -327,6 +344,10 @@ D button
 K button
 $ENDCMP
 #
+$CMP Si510
+D Crystal Oscillator
+$ENDCMP
+#
 $CMP THS4520
 D Differential Amplifier
 $ENDCMP
@@ -338,6 +359,10 @@ $ENDCMP
 $CMP TLV62130
 D DC/DC, Buck 3A
 K DC/DC, Buck
+$ENDCMP
+#
+$CMP TPS43061
+D DC/DC Buck Controller
 $ENDCMP
 #
 $CMP TPS562209
