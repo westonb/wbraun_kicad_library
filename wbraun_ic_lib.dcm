@@ -370,6 +370,10 @@ D Buck Converter
 K DC/DC, Buck
 $ENDCMP
 #
+$CMP TPS61089
+D Boost Converter
+$ENDCMP
+#
 $CMP TPS735
 D Linear Regulator
 $ENDCMP
