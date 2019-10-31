@@ -40,6 +40,10 @@ $CMP 74LVC1G00
 D Single NAND Gate
 $ENDCMP
 #
+$CMP 74LVC1G3157GW
+D analog switch
+$ENDCMP
+#
 $CMP 74LVC1G57
 D multiple function gate
 K logic
@@ -47,6 +51,10 @@ $ENDCMP
 #
 $CMP 74LVC8T245
 D Octal Level Shifter
+$ENDCMP
+#
+$CMP ACS730
+D Current Sensor
 $ENDCMP
 #
 $CMP AD5245
@@ -76,8 +84,17 @@ D LDO, 300mA
 K LDO, Regulator
 $ENDCMP
 #
+$CMP ADP7112
+D Voltage Regulator
+K Regulator
+$ENDCMP
+#
 $CMP ADuM3190
 D Analog Isolator
+$ENDCMP
+#
+$CMP ADuM5230
+D Isolated gate driver
 $ENDCMP
 #
 $CMP AFBR-1624Z
@@ -127,9 +144,18 @@ D x16 DDR-3
 K DDR, Memory
 $ENDCMP
 #
+$CMP EC6AW
+D Isolated DC/DC Converter
+$ENDCMP
+#
 $CMP EE2-3TNUH
 D latching relay
 K relay
+$ENDCMP
+#
+$CMP EPC8010
+D Transistor N-MOSFET, collector connected to mounting plane (general)
+K nmos n-mos n-mosfet transistor
 $ENDCMP
 #
 $CMP ESP8266_Module
@@ -152,11 +178,6 @@ K GPS
 $ENDCMP
 #
 $CMP GS61004B
-D Transistor N-MOSFET, collector connected to mounting plane (general)
-K nmos n-mos n-mosfet transistor
-$ENDCMP
-#
-$CMP GS61008P
 D Transistor N-MOSFET, collector connected to mounting plane (general)
 K nmos n-mos n-mosfet transistor
 $ENDCMP
@@ -219,6 +240,10 @@ D Voltage Refrence
 $ENDCMP
 #
 $CMP LM5114*SD
+D GaN Gate Driver
+$ENDCMP
+#
+$CMP LMG1020
 D GaN Gate Driver
 $ENDCMP
 #
@@ -301,6 +326,11 @@ D GaN FET
 K GaN
 $ENDCMP
 #
+$CMP Q_NMOS_GSSSSSSSD
+D N-MOS
+K nmos n-mos n-mosfet transistor
+$ENDCMP
+#
 $CMP Q_NMOS_SSSGDDDDD
 D N-MOS
 K nmos n-mos n-mosfet transistor
@@ -309,6 +339,15 @@ $ENDCMP
 $CMP Q_NMOS_letters
 D Transistor N-MOSFET (general)
 K nmos n-mos n-mosfet transistor
+$ENDCMP
+#
+$CMP R15P21503D
+D DC/DC Converter, Isolated 5V
+K DC/DC, Isolated
+$ENDCMP
+#
+$CMP RAC10
+D AD/DC Converter
 $ENDCMP
 #
 $CMP RFM-0505S
@@ -382,6 +421,24 @@ $CMP TPS82084
 D 2A DC/DC Module
 $ENDCMP
 #
+$CMP TPS82130
+D 17V Input 3A Step-Down Converter MicroSiP Module with Integrated Inductor, μSiL-8
+K 17V 3A Step-down Buck Module
+F http://www.ti.com/lit/ds/symlink/tps82130.pdf
+$ENDCMP
+#
+$CMP TPS82140
+D 17V Input 2A Step-Down Converter MicroSiP Module with Integrated Inductor, μSiL-8
+K 17V 2A Step-down Buck Module
+F http://www.ti.com/lit/ds/symlink/tps82140.pdf
+$ENDCMP
+#
+$CMP TPS82150
+D 17V Input 1A Step-Down Converter MicroSiP Module with Integrated Inductor, μSiL-8
+K 17V 1A Step-down Buck Module
+F http://www.ti.com/lit/ds/symlink/tps82150.pdf
+$ENDCMP
+#
 $CMP UCC27524A
 D Dual Gate Driver
 $ENDCMP
@@ -391,9 +448,17 @@ D GaN Gate Driver
 K Gate Driver
 $ENDCMP
 #
+$CMP UCC5350SB
+D Isolated Gate Driver
+$ENDCMP
+#
 $CMP ULN2003F12
 D Relay Driver
 K Relay Driver
+$ENDCMP
+#
+$CMP VOM1271
+D Photovoltaic Gate Driver
 $ENDCMP
 #
 $CMP WA04P

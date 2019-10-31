@@ -1,4 +1,4 @@
-(module 2929SQ (layer F.Cu) (tedit 583A60E8)
+(module 2929SQ (layer F.Cu) (tedit 5DA66A8C)
   (fp_text reference REF** (at 0 5) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
