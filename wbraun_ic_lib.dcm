@@ -144,6 +144,15 @@ D x16 DDR-3
 K DDR, Memory
 $ENDCMP
 #
+$CMP DRV8830DRC
+D Motor Driver
+$ENDCMP
+#
+$CMP DSPIC33CK32MP102
+D dsPIC Microcontroller
+K Microcontroller
+$ENDCMP
+#
 $CMP EC6AW
 D Isolated DC/DC Converter
 $ENDCMP
@@ -151,6 +160,11 @@ $ENDCMP
 $CMP EE2-3TNUH
 D latching relay
 K relay
+$ENDCMP
+#
+$CMP EPC2014C
+D GaN FET
+K GaN
 $ENDCMP
 #
 $CMP EPC8010
@@ -187,6 +201,11 @@ D GaN FET, top cooled
 K GaN, MOSFET
 $ENDCMP
 #
+$CMP GS66504B
+D Transistor N-MOSFET, collector connected to mounting plane (general)
+K nmos n-mos n-mosfet transistor
+$ENDCMP
+#
 $CMP GS66508T
 D GaN FET, top cooled
 K GaN, MOSFET
@@ -205,6 +224,15 @@ $ENDCMP
 $CMP IF-D95T
 D fiber optic transmitter
 K fiber optic
+$ENDCMP
+#
+$CMP IGLD60R190D1
+D GaN FET
+K GaN
+$ENDCMP
+#
+$CMP INA186A*IDCK
+D Current Sense Amplifier
 $ENDCMP
 #
 $CMP INA826AIDRG
@@ -243,8 +271,21 @@ $CMP LM5114*SD
 D GaN Gate Driver
 $ENDCMP
 #
+$CMP LM5165YDR
+D Buck Converter
+$ENDCMP
+#
 $CMP LMG1020
 D GaN Gate Driver
+$ENDCMP
+#
+$CMP LMG1025-Q1
+D GaN Gate Driver
+K Gate Driver
+$ENDCMP
+#
+$CMP LMG1205
+D GaN Half-bridge Driver
 $ENDCMP
 #
 $CMP LMG1210
@@ -258,6 +299,10 @@ $ENDCMP
 #
 $CMP LMZ14201
 D DC/DC Module
+$ENDCMP
+#
+$CMP LMZM23600
+D DC/DC Buck Module
 $ENDCMP
 #
 $CMP LP2985
@@ -300,6 +345,10 @@ $ENDCMP
 $CMP NXE2SxxxxMC
 D DC/DC Converter, Isolated
 K DC/DC, Isolated
+$ENDCMP
+#
+$CMP OPA569
+D Power Opamp
 $ENDCMP
 #
 $CMP PCA9534A
@@ -395,9 +444,19 @@ $CMP THS4551RGT
 D Differential Amplifier
 $ENDCMP
 #
+$CMP TLP3555A
+D Solid State Photorelay
+K Photorelay
+$ENDCMP
+#
 $CMP TLV62130
 D DC/DC, Buck 3A
 K DC/DC, Buck
+$ENDCMP
+#
+$CMP TPS22918-Q1
+D Load Switch
+K Load Switch
 $ENDCMP
 #
 $CMP TPS43061
@@ -411,6 +470,15 @@ $ENDCMP
 #
 $CMP TPS61089
 D Boost Converter
+$ENDCMP
+#
+$CMP TPS61222
+D Low Power Boost Converter
+$ENDCMP
+#
+$CMP TPS71733DRV
+D Voltage Regulator, 150mA
+K Regulator
 $ENDCMP
 #
 $CMP TPS735
