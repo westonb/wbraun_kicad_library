@@ -61,6 +61,10 @@ $CMP AD5245
 D I2C Digital Potentiometer
 $ENDCMP
 #
+$CMP AD8129
+D Differential Receiver
+$ENDCMP
+#
 $CMP AD8330AC
 D Amplifier, VGA
 K Amplifier
@@ -167,6 +171,11 @@ D GaN FET
 K GaN
 $ENDCMP
 #
+$CMP EPC2214
+D GaN FET
+K GaN
+$ENDCMP
+#
 $CMP EPC8010
 D Transistor N-MOSFET, collector connected to mounting plane (general)
 K nmos n-mos n-mosfet transistor
@@ -219,6 +228,14 @@ $ENDCMP
 $CMP HHM1520
 D RF Balun
 K Balun, RF
+$ENDCMP
+#
+$CMP HMC1041Z
+D AMR Magnetic Sensor
+$ENDCMP
+#
+$CMP HMC1052L
+D Magnetic Sensor
 $ENDCMP
 #
 $CMP IF-D95T
@@ -292,6 +309,16 @@ $CMP LMG1210
 D GaN Gate Driver
 $ENDCMP
 #
+$CMP LMH6612
+D Dual Operational Amplifiers, DIP-8/SOIC-8/TSSOP-8/VSSOP-8
+K dual opamp
+F http://www.ti.com/lit/ds/symlink/lm358.pdf
+$ENDCMP
+#
+$CMP LMH7220
+D LVDS Comparator
+$ENDCMP
+#
 $CMP LMX358IQ
 D OPAMP, rail to rail
 K OPAMP
@@ -310,9 +337,19 @@ D Linear Regulator, SOT-23
 K Regulator, Linear
 $ENDCMP
 #
+$CMP LP38691SD-ADJ
+D Adjustable Voltage Regulator
+K Voltage Regulator
+$ENDCMP
+#
 $CMP LT5560
 D RF Mixer
 K Mixer
+$ENDCMP
+#
+$CMP LTC7818
+D Boost + Buck Controller
+K Boost Buck
 $ENDCMP
 #
 $CMP MAX2750
@@ -373,6 +410,10 @@ $ENDCMP
 $CMP PGA26E07BA
 D GaN FET
 K GaN
+$ENDCMP
+#
+$CMP PIC16F1776-IMX
+D PIC Microcontroller
 $ENDCMP
 #
 $CMP Q_NMOS_GSSSSSSSD
@@ -454,6 +495,10 @@ D DC/DC, Buck 3A
 K DC/DC, Buck
 $ENDCMP
 #
+$CMP TMUX1219
+D SPDT Analog Switch
+$ENDCMP
+#
 $CMP TPS22918-Q1
 D Load Switch
 K Load Switch
@@ -505,6 +550,10 @@ $CMP TPS82150
 D 17V Input 1A Step-Down Converter MicroSiP Module with Integrated Inductor, μSiL-8
 K 17V 1A Step-down Buck Module
 F http://www.ti.com/lit/ds/symlink/tps82150.pdf
+$ENDCMP
+#
+$CMP TS5A3359DCUR
+D 3:1 Analog Switch
 $ENDCMP
 #
 $CMP UCC27524A
