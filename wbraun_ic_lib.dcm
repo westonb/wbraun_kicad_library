@@ -416,6 +416,10 @@ $CMP PIC16F1776-IMX
 D PIC Microcontroller
 $ENDCMP
 #
+$CMP PIC16F1776-ISS
+D PIC Microcontroller
+$ENDCMP
+#
 $CMP Q_NMOS_GSSSSSSSD
 D N-MOS
 K nmos n-mos n-mosfet transistor
