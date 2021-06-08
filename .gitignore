@@ -7,3 +7,4 @@
 #kicad specific files
 *.lib~
 
+scripts/__pycache__/
