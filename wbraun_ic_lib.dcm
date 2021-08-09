@@ -195,6 +195,12 @@ $CMP FOX924
 D VCTCXO
 $ENDCMP
 #
+$CMP GDT_2pin
+D Gas Discharge Tube with 2 Pins
+K gdt
+F ~
+$ENDCMP
+#
 $CMP GPS_Breakout
 D GPS Breakout
 K GPS
