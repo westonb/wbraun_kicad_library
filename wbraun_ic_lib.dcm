@@ -49,6 +49,10 @@ D multiple function gate
 K logic
 $ENDCMP
 #
+$CMP 74LVC2G34
+D Dual Buffer
+$ENDCMP
+#
 $CMP 74LVC8T245
 D Octal Level Shifter
 $ENDCMP
@@ -129,6 +133,11 @@ D Common Mode Choke
 K choke
 $ENDCMP
 #
+$CMP CT_12_PIN
+D Current Transformer
+K Current, Transformer
+$ENDCMP
+#
 $CMP CT_Transformer
 D Current Transformer
 K Current, Transformer
@@ -152,6 +161,10 @@ $CMP DRV8830DRC
 D Motor Driver
 $ENDCMP
 #
+$CMP DS4424N+
+D I2C DAC
+$ENDCMP
+#
 $CMP DSPIC33CK32MP102
 D dsPIC Microcontroller
 K Microcontroller
@@ -167,6 +180,11 @@ K relay
 $ENDCMP
 #
 $CMP EPC2014C
+D GaN FET
+K GaN
+$ENDCMP
+#
+$CMP EPC2038
 D GaN FET
 K GaN
 $ENDCMP
@@ -258,6 +276,10 @@ $CMP INA186A*IDCK
 D Current Sense Amplifier
 $ENDCMP
 #
+$CMP INA280
+D current shunt amplifier
+$ENDCMP
+#
 $CMP INA826AIDRG
 D Instrumentation Amplifier
 $ENDCMP
@@ -290,6 +312,10 @@ $CMP LM4128
 D Voltage Refrence
 $ENDCMP
 #
+$CMP LM5109BMAX
+D half bridge gate driver
+$ENDCMP
+#
 $CMP LM5114*SD
 D GaN Gate Driver
 $ENDCMP
@@ -313,6 +339,12 @@ $ENDCMP
 #
 $CMP LMG1210
 D GaN Gate Driver
+$ENDCMP
+#
+$CMP LMH6601
+D Single Supply, 345 MHz, Rail-to-Rail Output, Amplifier, TSOT-23-6
+K opamp operational amplifier single
+F http://www.ti.com/lit/ds/symlink/lmh6612.pdf
 $ENDCMP
 #
 $CMP LMH6612
@@ -385,6 +417,14 @@ $CMP MMA8452Q
 D I2C Accelerometer
 $ENDCMP
 #
+$CMP MPQ4558DN-LF-Z
+D buck converter
+$ENDCMP
+#
+$CMP NCP4624DM
+D Voltage Regulator
+$ENDCMP
+#
 $CMP NXE2SxxxxMC
 D DC/DC Converter, Isolated
 K DC/DC, Isolated
@@ -424,6 +464,11 @@ $ENDCMP
 #
 $CMP PIC16F1776-ISS
 D PIC Microcontroller
+$ENDCMP
+#
+$CMP Q_NMOS_GSSSD
+D N-MOS
+K nmos n-mos n-mosfet transistor
 $ENDCMP
 #
 $CMP Q_NMOS_GSSSSSSSD
@@ -597,6 +642,10 @@ $ENDCMP
 $CMP WA04P
 D RF Attenuator
 K RF, Attenuator
+$ENDCMP
+#
+$CMP dsPIC33CKXXXMP506
+D Microcontroller
 $ENDCMP
 #
 $CMP iCH12
