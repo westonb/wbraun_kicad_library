@@ -1,4 +1,4 @@
-(module CONN_SMA_EDGE_SAMTEC_SMA_J_P_H_ST_EM1 (layer F.Cu) (tedit 60845EE4)
+(module CONN_SMA_EDGE_SAMTEC_SMA_J_P_H_ST_EM1 (layer F.Cu) (tedit 61B7EF3F)
   (fp_text reference J11 (at 0 3.1 -180) (layer F.SilkS) hide
     (effects (font (size 1.5 1.5) (thickness 0.15)))
   )
@@ -10,9 +10,9 @@
   (pad 2 smd rect (at -2.825 -2.35) (size 1.35 4.7) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 2.825 -2.35) (size 1.35 4.7) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at 0 -2.1) (size 1.27 4.2) (layers F.Cu F.Paste F.Mask))
-  (model :SAMTEC:SMA-J-P-H-ST-EM1.stp
-    (offset (xyz 0 -1.49999997747226 0))
+  (model ${WBRAUN_LIB_DIR}/3D_Models/SMA-J-P-H-ST-EM1--3DModel-STEP-46669.STEP
+    (offset (xyz 0 -2 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 -90 180))
+    (rotate (xyz -180 -90 0))
   )
 )
