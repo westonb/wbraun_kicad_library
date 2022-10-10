@@ -320,6 +320,10 @@ $CMP LM5114*SD
 D GaN Gate Driver
 $ENDCMP
 #
+$CMP LM5121
+D Boost converter controller
+$ENDCMP
+#
 $CMP LM5165YDR
 D Buck Converter
 $ENDCMP
@@ -551,6 +555,11 @@ D Solid State Photorelay
 K Photorelay
 $ENDCMP
 #
+$CMP TLV3603DCK
+D single supply comparator
+K comparator
+$ENDCMP
+#
 $CMP TLV62130
 D DC/DC, Buck 3A
 K DC/DC, Buck
@@ -615,6 +624,16 @@ $ENDCMP
 #
 $CMP TS5A3359DCUR
 D 3:1 Analog Switch
+$ENDCMP
+#
+$CMP TSC201x
+D current sense amplifier
+$ENDCMP
+#
+$CMP Transformer_2P_2S
+D Transformer, split primary, dual secondary
+K transformer coil magnet
+F ~
 $ENDCMP
 #
 $CMP UCC27524A
