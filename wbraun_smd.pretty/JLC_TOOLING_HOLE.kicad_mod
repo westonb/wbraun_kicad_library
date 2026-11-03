@@ -1,0 +1,18 @@
+(footprint "JLC_TOOLING_HOLE" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 0)
+  (attr through_hole)
+  (fp_text reference "REF**" (at 0 -2 unlocked) (layer "F.SilkS") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 17b4a783-1b4d-4776-8608-c2e4c58f6733)
+  )
+  (fp_text value "JLC_TOOLING_HOLE" (at 0 2 unlocked) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 824eadab-04d0-470b-9a5d-b957596e97a4)
+  )
+  (fp_text user "${REFERENCE}" (at 0 3.5 unlocked) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 68531391-d06b-455f-a4e7-9a7fbb0eeae0)
+  )
+  (pad "" np_thru_hole circle (at 0 0) (size 1.3 1.3) (drill 1.152) (layers *.Mask) (tstamp bd20d6f7-6c17-4ae5-bc69-c002dd36e034))
+)
